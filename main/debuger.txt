@@ -1,0 +1,9 @@
+while(1)walk(0, 0);
+
+while(digitalRead(23))walk(0, 0);
+
+while(digitalRead(23)){
+    digitalWrite(LEDG, LOW);
+    digitalWrite(LEDR, LOW);
+    walk(0, 0);
+}
